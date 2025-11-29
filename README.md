@@ -1,4 +1,23 @@
-# DBI English Translation
+# DBI Multi-Language Translation
+## How to build?
+- Add the correctly translated **lang.`lang`.txt** file of the proper length to the **translate** folder.
+- If needed, overwrite **`font.ttf`** in the **font** folder.
+- Update **`config.txt`** to the desired target values.
+- Check the release items.
+
+```
+# Set the target DBI version.
+ver=845
+
+# Set the target language.
+lang=ko
+
+# Configure the font patch (font_num = number of fonts to patch / cannot be used alone).
+font=true
+font_num=false
+```
+
+## DBI English Translation
 
 This repository contains second iteration of an English translation for the DBI homebrew application (version 814-845) 
 for Nintendo Switch.
