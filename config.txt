@@ -1,0 +1,4 @@
+ver=845
+lang=all
+font=false
+font_num=false
