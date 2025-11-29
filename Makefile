@@ -39,6 +39,7 @@ $(BINDIR):
 
 clean:
 	@rm -rf $(BUILDDIR)
+	@rm -rf $(BINDIR)
 
 run: $(TARGET)
 	@$(TARGET)
