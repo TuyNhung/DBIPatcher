@@ -84,7 +84,7 @@ ACT065=Dữ liệu không biết
 ACT066=Game đã cài
 ACT067=Game chưa cài
 ACT068=Nhấn (+) để xóa, nút bất kỳ để bỏ qua...\n (-) Xóa tất cả, đừng hỏi
-ACT069=Đang dọn dẹp thư mục...
+ACT069=Đang dọn thư mục...
 ACT070=is not an LFS folder
 ACT071=Cannot get LFS list
 ACT072=[HASH: OK]
@@ -1427,7 +1427,7 @@ GAME845038=Mission failed\n(999,998 trials to go)\n\nPress A to exit
 
 RAW000=FB2 options
 RAW001============
-RAW002=Không    
+RAW002=Ko    
 RAW003=Có 
 RAW004=Có  
 RAW005=M:{}, T:{}, Grow:{}  
