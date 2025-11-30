@@ -103,7 +103,7 @@ jobs:
         fi
 
         for L in "${langs[@]}"; do
-            if [ "$L" = "ko" ]; then
+            if [ "$L" = "vi" ]; then
                 echo "[FONT] Applying font patch for $L"
                 python3 font/font_patch.py "$L" "patched/${L}/DBI.nro"
             else
