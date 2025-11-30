@@ -38,6 +38,7 @@ FONT_RANGES = {
     "pl": LATIN_EXT_A,
     "ru": CYRILLIC,
     "ua": CYRILLIC,
+    "vi": LATIN_ACCENTED + LATIN_EXT_A + [(0x0180, 0x0250)],
 }
 
 def load_config():
