@@ -1,4 +1,4 @@
 ver=845
-lang=ko
+lang=vi
 font=true
 font_num=false
