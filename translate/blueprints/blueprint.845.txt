@@ -12681,6 +12681,14 @@ key=0xbfe78f8f8debe1ed;id=845006                                  // [13 ]: 'А�
 	mov=0x002D3A30;offset=10;len=2;imm=0x313B
 	mov=0x002D3A38;offset=12;len=1;imm=0x8F
 
+key=0xf9a947ff85ef9dbf;id=845013                                  // [14 ]: '============='
+// at 0x005CA960 diff=8
+	dat=0x005CA960;offset=0;len=8;imm=0xC4947AC2B8D2A082
+// at 0x002937AC diff=12
+	mov=0x002937AC;offset=8;len=2;imm=0xA082
+	mov=0x002937B0;offset=10;len=2;imm=0xB8D2
+	mov=0x002937B8;offset=12;len=2;imm=0x47C2
+
 //------------------------
 // [MATCHED SHORT]
 //------------------------
@@ -13355,7 +13363,6 @@ key=0xa31121ed077965d7;id=TITLE002                                // [3  ]: 'ru'
 // 821001    [k=0x0f0d79c7579b9527 / 212  len=15   ]: 'Удалить'
 // 821002    [k=0x43573ddf47db73c7 / 203  len=15   ]: 'Путь    : '
 // 839000    [k=0xf3d5254d7787b167 / 178  len=13   ]: 'Альбом'
-// 845013    [k=0x0b5181c509f9d9cf / 3    len=14   ]: '============='
 // RAW001    [k=0x0000000000000000 / 0    len=14   ]: '============='
 
 //------------------------
@@ -13391,7 +13398,7 @@ key=0xa31121ed077965d7;id=TITLE002                                // [3  ]: 'ru'
 // 0x005CA880;8
 // 0x005CA898;8
 // 0x005CA8A8;24
-// 0x005CA960;16
+// 0x005CA968;8
 // 0x005CA998;80
 // 0x005CAA20;32
 // 0x005CAA70;240
@@ -13515,9 +13522,9 @@ key=0xa31121ed077965d7;id=TITLE002                                // [3  ]: 'ru'
 //------------------------
 
 // matched_full:      1160
-// matched_partial:   67
+// matched_partial:   68
 // unmatched_long:    175
-// unmatched_partial: 9
+// unmatched_partial: 8
 // unmatched_short:   0
 // duplicates:        6
 // mismatched:        0
