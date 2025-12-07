@@ -21,6 +21,8 @@ LATIN_ACCENTED = LATIN_BASIC + [(0x00C0, 0x00FF)]                         # Lati
 LATIN_EXT_A = LATIN_ACCENTED + [(0x0100, 0x017F)]                         # Latin Extended-A
 CYRILLIC = [(0x0400, 0x04FF)]                                             # Cyrillic characters
 DIGITS = [(0x0030, 0x003A)]                                               # Digits 0–9
+VIETNAMESE = [(0x0180, 0x0250)]
+VIETNAMESE2 = [(0x1E00, 0x1F00)]
 
 FONT_RANGES = {
     "ko": HANGUL_SYLLABLES,
@@ -38,6 +40,7 @@ FONT_RANGES = {
     "pl": LATIN_EXT_A,
     "ru": CYRILLIC,
     "ua": CYRILLIC,
+    "vi": LATIN_ACCENTED + LATIN_EXT_A + VIETNAMESE + VIETNAMESE2,
 }
 
 def load_config():
