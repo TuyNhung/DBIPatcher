@@ -1,4 +1,4 @@
-ver=849
+ver=845
 lang=vi
 font=true
 font_num=true
